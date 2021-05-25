@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PostTestController {
+public class PostController {
 
     @RequestMapping(value = "/test/post/hello" , method = RequestMethod.POST, consumes = "application/json")
     public String postInfo(@RequestBody Student student){
